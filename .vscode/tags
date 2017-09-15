@@ -1,0 +1,73 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CONFIG	../config/resnet_config.py	/^CONFIG = {$/;"	kind:variable	line:1
+CONFIG	../config/vggnet_config.py	/^CONFIG = {$/;"	kind:variable	line:1
+FLAGS	../train/run.py	/^FLAGS = tf.app.flags.FLAGS$/;"	kind:variable	line:18
+Inception	../network/inception.py	/^class Inception(Net):$/;"	kind:class	line:10
+Net	../network/net.py	/^class Net(object):$/;"	kind:class	line:8
+ResNet	../network/resnet.py	/^class ResNet(Net):$/;"	kind:class	line:15
+Solver	../train/solver.py	/^class Solver(object):$/;"	kind:class	line:10
+VggNet	../network/vggnet.py	/^class VggNet(Net):$/;"	kind:class	line:10
+_LearningRateSetterHook	../train/solver.py	/^        class _LearningRateSetterHook(tf.train.SessionRunHook):$/;"	kind:class	line:128
+__init__	../network/inception.py	/^    def __init__(self, cfgs, images, labels, mode='train', multi_gpu_mode=False):$/;"	kind:member	line:13
+__init__	../network/net.py	/^    def __init__(self, cfgs, images, labels, mode): $/;"	kind:member	line:10
+__init__	../network/resnet.py	/^    def __init__(self, cfgs, images, labels, mode='train', multi_gpu_mode=False):$/;"	kind:member	line:18
+__init__	../network/vggnet.py	/^    def __init__(self, cfgs, images, labels, mode='train', multi_gpu_mode=False):$/;"	kind:member	line:13
+__init__	../train/solver.py	/^    def __init__(self, model, cfgs, mode='train', lr_setHook=False, num_gpus=0):$/;"	kind:member	line:12
+__init__.py	../config/__init__.py	1;"	kind:file	line:1
+__init__.py	../data/__init__.py	1;"	kind:file	line:1
+__init__.py	../network/__init__.py	1;"	kind:file	line:1
+_average_gradients	../train/solver.py	/^    def _average_gradients(self, tower_grads):$/;"	kind:member	line:229
+_bottleneck_residual	../network/resnet.py	/^    def _bottleneck_residual(self, x, in_filter, out_filter, stride, $/;"	kind:member	line:97
+_build_graph_multi_gpu	../train/solver.py	/^    def _build_graph_multi_gpu(self):$/;"	kind:member	line:176
+_build_graph_single_dev	../train/solver.py	/^    def _build_graph_single_dev(self):$/;"	kind:member	line:36
+_build_train_op_single_dev	../train/solver.py	/^    def _build_train_op_single_dev(self):$/;"	kind:member	line:62
+_reset	../train/solver.py	/^    def _reset(self):$/;"	kind:member	line:32
+_residual	../network/resnet.py	/^    def _residual(self, x, in_filter, out_filter, stride, $/;"	kind:member	line:135
+_stride_arr	../network/inception.py	/^    def _stride_arr(self, stride):$/;"	kind:member	line:20
+_stride_arr	../network/resnet.py	/^    def _stride_arr(self, stride):$/;"	kind:member	line:27
+_stride_arr	../network/vggnet.py	/^    def _stride_arr(self, stride):$/;"	kind:member	line:20
+after_run	../train/solver.py	/^            def after_run(self, run_context, run_values):$/;"	kind:member	line:140
+batch_norm	../network/ops.py	/^def batch_norm(name, x, mode, epsilon=0.001, multi_gpu_mode=False):$/;"	kind:function	line:73
+before_run	../train/solver.py	/^            def before_run(self, run_context):$/;"	kind:member	line:134
+begin	../train/solver.py	/^            def begin(self):$/;"	kind:member	line:131
+build_input	../data/cifar_input.py	/^def build_input(dataset, data_path, batch_size, mode):$/;"	kind:function	line:21
+checkpoint_dir	../train/solver.py	/^            checkpoint_dir=self._checkpoint_dir,$/;"	kind:variable	line:159
+chief_only_hooks	../train/solver.py	/^            chief_only_hooks=[summary_hook],$/;"	kind:variable	line:161
+cifar_input.py	../data/cifar_input.py	1;"	kind:file	line:1
+config	../train/solver.py	/^            config=tf.ConfigProto(allow_soft_placement=True)$/;"	kind:variable	line:165
+conv	../network/ops.py	/^def conv(name, x, filter_size, in_filters, out_filters, strides, padmod, multi_gpu_mode=False):$/;"	kind:function	line:23
+evaluate	../train/solver.py	/^    def evaluate(self, eval_batch_count, evaluate_once='False'):$/;"	kind:member	line:255
+fc	../network/ops.py	/^def fc(name, x, batch_size, out_dim, multi_gpu_mode=False):$/;"	kind:function	line:46
+global_avg_pool	../network/ops.py	/^def global_avg_pool(x):$/;"	kind:function	line:67
+hooks	../train/solver.py	/^            hooks=hooks_,$/;"	kind:variable	line:160
+hooks_	../train/solver.py	/^            hooks_ = [logging_hook, _LearningRateSetterHook()]$/;"	kind:variable	line:153
+hooks_	../train/solver.py	/^            hooks_ = [logging_hook]$/;"	kind:variable	line:155
+inception.py	../network/inception.py	1;"	kind:file	line:1
+inference	../network/inception.py	/^    def inference(self):$/;"	kind:member	line:24
+inference	../network/net.py	/^    def inference(self):$/;"	kind:member	line:26
+inference	../network/resnet.py	/^    def inference(self):$/;"	kind:member	line:31
+inference	../network/vggnet.py	/^    def inference(self):$/;"	kind:member	line:24
+iter_num	../train/solver.py	/^            iter_num = 0$/;"	kind:variable	line:168
+loss	../network/inception.py	/^    def loss(self):$/;"	kind:member	line:91
+loss	../network/net.py	/^    def loss(self):$/;"	kind:member	line:29
+loss	../network/resnet.py	/^    def loss(self):$/;"	kind:member	line:85
+loss	../network/vggnet.py	/^    def loss(self):$/;"	kind:member	line:91
+main	../train/run.py	/^def main(_):$/;"	kind:function	line:34
+net.py	../network/net.py	1;"	kind:file	line:1
+one_hot_encoding	../network/ops.py	/^def one_hot_encoding(labels, num_classes, scope=None):$/;"	kind:function	line:157
+ops.py	../network/ops.py	1;"	kind:file	line:1
+relu	../network/ops.py	/^def relu(x, leakiness=0.0):$/;"	kind:function	line:41
+resnet.py	../network/resnet.py	1;"	kind:file	line:1
+resnet_config.py	../config/resnet_config.py	1;"	kind:file	line:1
+run.py	../train/run.py	1;"	kind:file	line:1
+save_summaries_steps	../train/solver.py	/^            save_summaries_steps=0,$/;"	kind:variable	line:164
+solver.py	../train/solver.py	1;"	kind:file	line:1
+train	../train/solver.py	/^    def train(self):$/;"	kind:member	line:84
+vggnet.py	../network/vggnet.py	1;"	kind:file	line:1
+vggnet_config.py	../config/vggnet_config.py	1;"	kind:file	line:1
+weight_decay	../network/ops.py	/^def weight_decay(weight_decay_rate):$/;"	kind:function	line:12
